@@ -1,0 +1,50 @@
+PODS:
+  - Flutter (1.0.0)
+  - google_maps_flutter_ios (0.0.1):
+    - Flutter
+    - GoogleMaps
+  - GoogleMaps (7.3.0):
+    - GoogleMaps/Maps (= 7.3.0)
+  - GoogleMaps/Base (7.3.0)
+  - GoogleMaps/Maps (7.3.0):
+    - GoogleMaps/Base
+  - ObjectBox (1.8.1-rc)
+  - objectbox_flutter_libs (0.0.1):
+    - Flutter
+    - ObjectBox (= 1.8.1-rc)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
+  - objectbox_flutter_libs (from `.symlinks/plugins/objectbox_flutter_libs/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - ObjectBox
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  google_maps_flutter_ios:
+    :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
+  objectbox_flutter_libs:
+    :path: ".symlinks/plugins/objectbox_flutter_libs/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  google_maps_flutter_ios: 66201f392bf62d500f07670a30488a247b9bb5b9
+  GoogleMaps: a146f275ee429d14822178c7a841c03366ec92a1
+  ObjectBox: 7615cc462f2976cb45127d301a17cb473edf3f9e
+  objectbox_flutter_libs: 55835e03ff76bf9d5ce0a41a2ef3902d2e8c1f20
+  path_provider_foundation: 37748e03f12783f9de2cb2c4eadfaa25fe6d4852
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.11.3
